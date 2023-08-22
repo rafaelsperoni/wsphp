@@ -16,5 +16,3 @@ $cursos = $stmt->fetchAll(PDO::FETCH_OBJ);
 
 #exibe o conteudo do array
 var_dump($cursos);
-
-#pode percorrer com for, foreach
