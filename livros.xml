@@ -1,0 +1,7 @@
+<?xml version="1.0"?>
+<!DOCTYPE bookstore SYSTEM "books.dtd">
+<bookstore>
+  <book id="1">
+    <title>XML book</title>
+  </book>
+</bookstore>

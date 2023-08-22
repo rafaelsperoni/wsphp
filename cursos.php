@@ -15,4 +15,6 @@ $stmt = $conexao->query($sql);
 $cursos = $stmt->fetchAll(PDO::FETCH_OBJ);
 
 #exibe o conteudo do array
-var_dump($cursos);
+foreach ($cursos as $curso){
+    $dom->createElement('nome', $curso->nome);
+}
